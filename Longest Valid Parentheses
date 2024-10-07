@@ -25,6 +25,6 @@ int longestValidParentheses(string s) {
 int main(){
 string s;
 getline(cin,s);
-cout<<longestValidParentheses;
+cout<<longestValidParentheses(s);
 return 0;
 }
