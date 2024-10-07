@@ -12,7 +12,7 @@ int longestValidParentheses(string s) {
                 st.pop();
 
                 if (st.empty()) {
-                    st.push(i);
+                    st.push(i);// thêm vào để vòng lặp sau nếu rỗng mà vẫn có thêm ')' mà ko bị lỗi mà lúc đó len=0 
                 } else {
                     int len = i - st.top();
                     maxLen = max(maxLen, len);
